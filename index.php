@@ -1,7 +1,7 @@
 <?php
 	error_reporting(0);
 	include "curl_gd.php";
-	$base_url = 'https://shinznime.herokuapp.com';
+	$base_url = 'https://shinznime.herokuapp.com/drive';
 	$server = 'drive.google.com';
 
 	$url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
