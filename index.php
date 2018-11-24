@@ -42,11 +42,12 @@
 <body>
 
 	<main role="main" class="container">
-		<h1 class="mt-5 text-center">Google Drive Player Script</h1>
-		<br />
 		<form action="/" method="POST">
 		    <input name="Url" id="Url" value="<?php echo $_GET['url'];?>" />
 		</form>
+		<br />
+		<h1 class="mt-5 text-center">Google Drive Player Script</h1>
+		<br />
 		<video poster="<?php echo $results['image']; ?>" id="player" playsinline controls>
 			<source src="<?php echo $results['file'];?>" type="<?php echo $results['type'];?>">
 		</video>
