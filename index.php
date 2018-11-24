@@ -6,7 +6,7 @@
 
 	$url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
 	if(empty($url)) {
-	  $url = '';
+	  $url = 'https://drive.google.com/file/d/1VHco1KxapTm40mJ1_PTq5brfU1DHX6aF/view';
 	}
 
 	if($url) {
