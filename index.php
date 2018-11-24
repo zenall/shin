@@ -43,7 +43,7 @@
 
 	<main role="main" class="container">
 		<form action="/embed.php" method="get">
-			<input type="text" name="" id="id" value="<?php echo $_GET['url'];?>">
+			<input type="text" name="id" id="id" value="<?php echo $_GET['url'];?>">
 			<input type="submit" value="Submit">
 		</form>
 		<br />
