@@ -42,8 +42,8 @@
 <body>
 
 	<main role="main" class="container">
-		<form action="/">
-			<input type="text" name="Url" id="Url" value="<?php echo $_GET['url'];?>">
+		<form action="/embed.php" method="get">
+			<input type="text" name="" id="id" value="<?php echo $_GET['url'];?>">
 			<input type="submit" value="Submit">
 		</form>
 		<br />
