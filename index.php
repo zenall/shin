@@ -51,9 +51,11 @@
 		<strong>Embed: </strong>
 		<?php if($results['embed_id']){echo '<textarea class="form-control">&lt;iframe src="'.$base_url.'/embed.php?id='.$results['embed_id'].'" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen&gt;&lt;/iframe&gt;</textarea>';}?>
 		<br />
+		<div style='display:none'>
 		<strong>JSON: </strong><a href="<?php echo $base_url.'/json.php?url='.$url;?>"><?php echo $base_url.'/json.php?url='.$url;?></a>
 		<div style="background-color: #e9ecef;">
 			<pre><code> <?php echo json_encode($results, JSON_PRETTY_PRINT);?> </code></pre>
+		</div>
 		</div>
 		<br /><br />
   </main>
