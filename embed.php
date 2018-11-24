@@ -32,6 +32,7 @@
 
 	<video poster="<?php echo $results['image']; ?>" id="player" playsinline controls>
 		<source src="<?php echo $results['file'];?>" type="<?php echo $results['type'];?>">
+		<track src="<?php echo $subs['urls'];?>" kind="subtitles" srclang="id" label="Indonesia">
 	</video>
 
 	<!-- Plyr JS -->
