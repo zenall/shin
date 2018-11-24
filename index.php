@@ -42,8 +42,9 @@
 <body>
 
 	<main role="main" class="container">
-		<form action="/" method="POST">
-		    <input name="Url" id="Url" value="<?php echo $_GET['url'];?>" />
+		<form action="/">
+			<input type="text" name="Url" id="Url" value="<?php echo $_GET['url'];?>">
+			<input type="submit" value="Submit">
 		</form>
 		<br />
 		<h1 class="mt-5 text-center">Google Drive Player Script</h1>
