@@ -44,8 +44,8 @@
 	<main role="main" class="container">
 		<h1 class="mt-5 text-center">Google Drive Player Script</h1>
 		<br />
-		<form action="https://shinznime.herokuapp.com" method="POST">
-		    <input type="hidden" name="Url" id="Url" value="<?php echo $_GET['url'];?>" />
+		<form action="/" method="POST">
+		    <input name="Url" id="Url" value="<?php echo $_GET['url'];?>" />
 		</form>
 		<video poster="<?php echo $results['image']; ?>" id="player" playsinline controls>
 			<source src="<?php echo $results['file'];?>" type="<?php echo $results['type'];?>">
