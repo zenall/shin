@@ -29,7 +29,7 @@
 	<link rel="stylesheet" href="https://cdn.plyr.io/3.3.12/plyr.css">
 		<style type="text/css">
 		video {
-		  background-color: black;
+		  background-color: #FFF!important;
 		  background-image: /* our video */;
 		  background-position: center center;
 		  background-size: contain;
